@@ -1,6 +1,6 @@
 # XMLDecoder
 
-[![Build Status](https://travis-ci.org/uny/XMLDecoder.svg?branch=feature%2Ffirst)](https://travis-ci.org/uny/XMLDecoder)
+[![Build Status](https://travis-ci.org/uny/XMLDecoder.svg?branch=master)](https://travis-ci.org/uny/XMLDecoder)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 XMLDecoder for Swift.
