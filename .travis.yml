@@ -1,6 +1,6 @@
 language: objective-c
 osx_image: xcode9
 script:
-  - xcodebuild build-for-testing test-without-building -project XMLDecoder.xcodeproj -scheme XMLDecoder -sdk iphonesimulator
+  - xcodebuild build-for-testing test-without-building -project XMLDecoder.xcodeproj -scheme XMLDecoder -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=11.2'
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash) -J 'XMLDecoder'
